@@ -1,35 +1,45 @@
-import os
-import glob
-import json
-import arrow
+#Code for scoring PHQ9
+#2019
 
-folder_path = 'biaffect-survey-weekly-PHQ-9-v1'
+import csv
 
-NotAtAll = SeveralDays = MoreThanHalfTheDays = VeryDifficult = 0
 
-with open(folder_path+'/metadata.json', 'r') as metadataFile:
-    metadata = json.load(metadataFile)
-    start = arrow.get(metadata["startDate"]).datetime.timestamp()
-    end = arrow.get(metadata["endDate"]).datetime.timestamp()
+class PHQ9:
 
-for filename in glob.glob(os.path.join(folder_path, '*.json')):
-    if filename == 'biaffect-survey-weekly-PHQ-9-v1\metadata.json' or filename == 'biaffect-survey-weekly-PHQ-9-v1\info.json':
-        continue
-    else:
-        with open(filename, 'r') as f:
-            data = json.load(f)
-            fileStart = arrow.get(data["startDate"]).datetime.timestamp()
-            fileEnd = arrow.get(data["endDate"]).datetime.timestamp()
-            if fileStart >= start and fileEnd <= end:
-                if data["answer"] == "Not at all":
-                    NotAtAll += 1
-                elif data["answer"] == "Several days":
-                    SeveralDays += 1
-                elif data["answer"] == "More than half the days":
-                    MoreThanHalfTheDays += 1
-                elif data["answer"] == "Very difficult":
-                    VeryDifficult += 1
-score = SeveralDays + MoreThanHalfTheDays*2 + VeryDifficult*3
-print(score)
+    def calculating_phq9(self):
+        read_csv = csv.DictReader(open("PHQ9V1.csv", "r"), delimiter=",")
+        analysisData = []
+        included_cols = ['anhedonia', 'depression', 'sleep', 'energy', 'appetite', 'concentration', 'speed']
+        for row in read_csv:
+            score = 0
+            if row['discouragement'] != "":
+                score += self.phq9_scoring(row['discouragement'])
+            elif row['discouraged'] != "":
+                score += self.phq9_scoring(row['discouraged'])
+            else:
+                continue
+            for col in included_cols:
+                score += self.phq9_scoring(row[col])
+            if score < 0:
+                continue
+            else:
+                if row['suicidality'] != "":
+                    score += self.phq9_scoring(row['suicidality'])
+                else:
+                    score = score*9/8
+                analysisData.append({"healthCode": row['healthCode'], "uploadDate": row['uploadDate'], "phq9Score": score})
+        return analysisData
+
+    def phq9_scoring(self, string):
+        if string == "Not at all" or string == "Not difficult at all":
+            return 0
+        elif string == "Several days":
+            return 1
+        elif string == "More than half the days":
+            return 2
+        elif string == "Nearly every day":
+            return 3
+        else:
+            return -10000
 
 
