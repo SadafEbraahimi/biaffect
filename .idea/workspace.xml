@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8d2a9f5-968c-4977-aa5b-cdc19f39d0a5" name="Default Changelist" comment="Sadaf - First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/biaffect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/biaffect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/calc_modalities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/mdq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/merge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/phq9.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/biaffect$lab1__1_.coverage" NAME="lab1 (1) Coverage Results" MODIFIED="1580232119891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$practice.coverage" NAME="practice Coverage Results" MODIFIED="1590426749107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$Doctest_matching_sentences.coverage" NAME="Doctest matching_sentences Coverage Results" MODIFIED="1580778499666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$main2__1_.coverage" NAME="main2 (1) Coverage Results" MODIFIED="1559858690218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/biaffect$csc242hw3.coverage" NAME="csc242hw3 Coverage Results" MODIFIED="1587428045958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring/main" />
+    <SUITE FILE_PATH="coverage/biaffect$lab1.coverage" NAME="lab1 Coverage Results" MODIFIED="1579626716505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/biaffect$melany__1_.coverage" NAME="melany (1) Coverage Results" MODIFIED="1580361568545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$mdq__1_.coverage" NAME="mdq (1) Coverage Results" MODIFIED="1557182051732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$wtftesting.coverage" NAME="wtftesting Coverage Results" MODIFIED="1557205315741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$Doctests_in_Mike_Earley_Homework_4.coverage" NAME="Doctests in Mike Earley_Homework 4 Coverage Results" MODIFIED="1580777047999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$test.coverage" NAME="test Coverage Results" MODIFIED="1591231840877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/AI" />
+    <SUITE FILE_PATH="coverage/biaffect$lab4.coverage" NAME="lab4 Coverage Results" MODIFIED="1587585817215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$gonogo.coverage" NAME="gonogo Coverage Results" MODIFIED="1582143848900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/biaffect$Doctest_print_results.coverage" NAME="Doctest print_results Coverage Results" MODIFIED="1583800360019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$desire.coverage" NAME="desire Coverage Results" MODIFIED="1584401670457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$csc241_homework_7.coverage" NAME="csc241-homework-7 Coverage Results" MODIFIED="1582592521824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/biaffect$Doctest_print_change.coverage" NAME="Doctest print_change Coverage Results" MODIFIED="1582589751513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/biaffect$solution2_bialkowski.coverage" NAME="solution2_bialkowski Coverage Results" MODIFIED="1590526401580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$PzzaPe.coverage" NAME="PzzaPe Coverage Results" MODIFIED="1582747291374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/biaffect$merge.coverage" NAME="merge Coverage Results" MODIFIED="1557512902792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$sadaf.coverage" NAME="sadaf Coverage Results" MODIFIED="1557253768090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$DotsAndBoxesUI.coverage" NAME="DotsAndBoxesUI Coverage Results" MODIFIED="1588557869276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/AI/dots-and-boxes-master" />
+    <SUITE FILE_PATH="coverage/biaffect$ssss.coverage" NAME="ssss Coverage Results" MODIFIED="1581987440633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$NaiveBayes.coverage" NAME="NaiveBayes Coverage Results" MODIFIED="1591418403863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/AI" />
+    <SUITE FILE_PATH="coverage/biaffect$Doctest_dice_probability.coverage" NAME="Doctest dice_probability Coverage Results" MODIFIED="1583800277611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$Doctests_in_hw.coverage" NAME="Doctests in hw Coverage Results" MODIFIED="1583800130506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$calc_modalities.coverage" NAME="calc_modalities Coverage Results" MODIFIED="1558479387220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1559857483552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$assignment3_bialkowski.coverage" NAME="assignment3_bialkowski Coverage Results" MODIFIED="1589158358714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring/main" />
+    <SUITE FILE_PATH="coverage/biaffect$test_weird_cases.coverage" NAME="test_weird_cases Coverage Results" MODIFIED="1559867301473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$hw3Francis.coverage" NAME="hw3Francis Coverage Results" MODIFIED="1580243025512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$melany.coverage" NAME="melany Coverage Results" MODIFIED="1580361520647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$phq9.coverage" NAME="phq9 Coverage Results" MODIFIED="1560284122026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$assignment1.coverage" NAME="assignment1 Coverage Results" MODIFIED="1591402046233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1588560173104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/AI/dots-and-boxes-master" />
+    <SUITE FILE_PATH="coverage/biaffect$testmdq.coverage" NAME="testmdq Coverage Results" MODIFIED="1556760974557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$hw3TEST.coverage" NAME="hw3TEST Coverage Results" MODIFIED="1588111653426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recycle bin/sadaf" />
+    <SUITE FILE_PATH="coverage/biaffect$mdq.coverage" NAME="mdq Coverage Results" MODIFIED="1559852200316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$hw0TEST.coverage" NAME="hw0TEST Coverage Results" MODIFIED="1586895298077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$hw3.coverage" NAME="hw3 Coverage Results" MODIFIED="1588112241787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recycle bin/sadaf" />
+    <SUITE FILE_PATH="coverage/biaffect$Doctest_run_test.coverage" NAME="Doctest run_test Coverage Results" MODIFIED="1583799477479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$lab3.coverage" NAME="lab3 Coverage Results" MODIFIED="1586895593635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$main.coverage" NAME="main Coverage Results" MODIFIED="1588553361310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/AI" />
+    <SUITE FILE_PATH="coverage/biaffect$Recommender.coverage" NAME="Recommender Coverage Results" MODIFIED="1591242914268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/AI" />
+    <SUITE FILE_PATH="coverage/biaffect$Doctest_dice_role.coverage" NAME="Doctest dice_role Coverage Results" MODIFIED="1583799050884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$WarAndPeacePseudoRandomNumberGenerator.coverage" NAME="WarAndPeacePseudoRandomNumberGenerator Coverage Results" MODIFIED="1589925983889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$phq9__1_.coverage" NAME="phq9 (1) Coverage Results" MODIFIED="1557337777140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$hw.coverage" NAME="hw Coverage Results" MODIFIED="1586973383366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recycle bin/sadaf" />
+    <SUITE FILE_PATH="coverage/biaffect$test_weird_cases__1_.coverage" NAME="test_weird_cases (1) Coverage Results" MODIFIED="1558478906164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin/old_scripts" />
+    <SUITE FILE_PATH="coverage/biaffect$Doctest_remove_noise.coverage" NAME="Doctest remove_noise Coverage Results" MODIFIED="1580776980546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+    <SUITE FILE_PATH="coverage/biaffect$reformat.coverage" NAME="reformat Coverage Results" MODIFIED="1558401710075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/biaffect$Doctest_scan_for.coverage" NAME="Doctest scan_for Coverage Results" MODIFIED="1580778210868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutoring" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>flipSwitches</find>
+      <find>strip</find>
+      <find>{}</find>
+      <find>try</find>
+      <find>cost</find>
+      <find>self.cost</find>
+      <find>while true</find>
+      <find>board</find>
+      <find>has_key</find>
+      <find>alphabeta</find>
+      <find>move(</find>
+      <find>initUIWithTable</find>
+      <find>ui</find>
+      <find>Man</find>
+      <find>Â</find>
+      <find>man</find>
+      <find>open</find>
+      <find>range</find>
+      <find>np.</find>
+      <find>print</find>
+      <find>txt</find>
+      <find>columns</find>
+      <find>windowsPrior</find>
+      <find>test_matrix</find>
+      <find>windows_docs</find>
+      <find>testClasses</find>
+      <find>testMatrix</find>
+      <find>predict</find>
+      <find>test_classes</find>
+      <find>result</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="70f6a318-a0ec-4da1-992e-153f96482529" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="14" />
+    <option name="y" value="-7" />
+    <option name="width" value="1300" />
+    <option name="height" value="242" />
+  </component>
+  <component name="ProjectId" id="1iIjCfWXwFeRcbcK61SNIyUT7ma" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sadaf\PycharmProjects\biaffect\recycle bin\sadaf" />
+      <recent name="C:\Users\Sadaf\PycharmProjects\biaffect\src\Tutoring" />
+      <recent name="C:\Users\Sadaf\PycharmProjects\biaffect\bin" />
+      <recent name="C:\Users\Sadaf\PycharmProjects\biaffect\bin\old_scripts" />
+      <recent name="C:\Users\Sadaf\PycharmProjects\biaffect" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sadaf\PycharmProjects\biaffect\src\AI" />
+      <recent name="C:\Users\Sadaf\PycharmProjects\biaffect\src\Tutoring" />
+      <recent name="C:\Users\Sadaf\PycharmProjects\biaffect\src\Tutoring\main" />
+      <recent name="C:\Users\Sadaf\PycharmProjects\biaffect\recycle bin\sadaf" />
+      <recent name="C:\Users\Sadaf\PycharmProjects\biaffect\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.NaiveBayes">
+    <configuration name="NaiveBayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="biaffect" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/AI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/AI/NaiveBayes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Recommender" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="biaffect" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/AI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/AI/Recommender" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="assignment1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="biaffect" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Tutoring" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Tutoring/assignment1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="solution2_bialkowski" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="biaffect" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Tutoring" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Tutoring/solution2_bialkowski.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="biaffect" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/AI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/AI/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.NaiveBayes" />
+        <item itemvalue="Python.assignment1" />
+        <item itemvalue="Python.Recommender" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.solution2_bialkowski" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8d2a9f5-968c-4977-aa5b-cdc19f39d0a5" name="Default Changelist" comment="" />
+      <created>1554151658237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554151658237</updated>
+      <workItem from="1554151659559" duration="1665000" />
+      <workItem from="1554311568623" duration="4472000" />
+      <workItem from="1554401587928" duration="1045000" />
+      <workItem from="1554748619689" duration="6000" />
+      <workItem from="1554920060144" duration="817000" />
+      <workItem from="1555101459291" duration="1479000" />
+      <workItem from="1555115036648" duration="2614000" />
+      <workItem from="1556034913552" duration="1851000" />
+      <workItem from="1556064492791" duration="1777000" />
+      <workItem from="1556080090924" duration="673000" />
+      <workItem from="1556080795825" duration="835000" />
+      <workItem from="1556126771333" duration="9000" />
+      <workItem from="1556126910387" duration="11000" />
+      <workItem from="1556305265353" duration="361000" />
+      <workItem from="1556314892008" duration="3000" />
+      <workItem from="1556680349611" duration="91000" />
+      <workItem from="1556684154758" duration="9070000" />
+      <workItem from="1556725600572" duration="1136000" />
+      <workItem from="1556730433966" duration="11225000" />
+      <workItem from="1556744930285" duration="2733000" />
+      <workItem from="1556751851843" duration="68000" />
+      <workItem from="1556754459790" duration="6324000" />
+      <workItem from="1556774692133" duration="759000" />
+      <workItem from="1556818064391" duration="16677000" />
+      <workItem from="1556850124392" duration="4369000" />
+      <workItem from="1556921280867" duration="2054000" />
+      <workItem from="1556952707080" duration="1311000" />
+      <workItem from="1557169443118" duration="20340000" />
+      <workItem from="1557194777230" duration="7514000" />
+      <workItem from="1557250057554" duration="15144000" />
+      <workItem from="1557266539924" duration="1647000" />
+      <workItem from="1557269193100" duration="8341000" />
+      <workItem from="1557287949617" duration="16544000" />
+      <workItem from="1557333651733" duration="36029000" />
+      <workItem from="1557372655969" duration="5755000" />
+      <workItem from="1557379242257" duration="234000" />
+      <workItem from="1557419456617" duration="2248000" />
+      <workItem from="1557424912316" duration="3876000" />
+      <workItem from="1557433273353" duration="9686000" />
+      <workItem from="1557452844441" duration="16550000" />
+      <workItem from="1557473568862" duration="2660000" />
+      <workItem from="1557497581585" duration="3101000" />
+      <workItem from="1557504862853" duration="14115000" />
+      <workItem from="1557537957402" duration="1852000" />
+      <workItem from="1557543698056" duration="1198000" />
+      <workItem from="1557600403776" duration="807000" />
+      <workItem from="1557613711482" duration="134000" />
+      <workItem from="1557624865577" duration="870000" />
+      <workItem from="1557782823189" duration="2139000" />
+      <workItem from="1557786346141" duration="7802000" />
+      <workItem from="1557809936733" duration="3504000" />
+      <workItem from="1557848966597" duration="16175000" />
+      <workItem from="1557873336123" duration="13735000" />
+      <workItem from="1557892995202" duration="7767000" />
+      <workItem from="1557940106452" duration="17526000" />
+      <workItem from="1557960350722" duration="5415000" />
+      <workItem from="1557968440412" duration="42554000" />
+      <workItem from="1558110981842" duration="8898000" />
+      <workItem from="1558125918536" duration="2769000" />
+      <workItem from="1558377526417" duration="7003000" />
+      <workItem from="1558392319953" duration="4576000" />
+      <workItem from="1558406866289" duration="11470000" />
+      <workItem from="1558456090019" duration="7115000" />
+      <workItem from="1558471659794" duration="4521000" />
+      <workItem from="1558477127583" duration="9626000" />
+      <workItem from="1558551083680" duration="9664000" />
+      <workItem from="1558580460242" duration="2966000" />
+      <workItem from="1558642601299" duration="1750000" />
+      <workItem from="1558657863401" duration="3833000" />
+      <workItem from="1559094210871" duration="1753000" />
+      <workItem from="1559685191142" duration="1978000" />
+      <workItem from="1559701746058" duration="9560000" />
+      <workItem from="1559755293896" duration="6722000" />
+      <workItem from="1559764116006" duration="1246000" />
+      <workItem from="1559768767406" duration="4245000" />
+      <workItem from="1559792495130" duration="4678000" />
+      <workItem from="1559843926976" duration="22230000" />
+      <workItem from="1560064898093" duration="1302000" />
+      <workItem from="1560100997816" duration="11589000" />
+      <workItem from="1560142052313" duration="5990000" />
+      <workItem from="1560218219429" duration="8663000" />
+      <workItem from="1560279177222" duration="8943000" />
+      <workItem from="1560303368904" duration="1399000" />
+      <workItem from="1560312969524" duration="7255000" />
+      <workItem from="1560374399495" duration="4874000" />
+      <workItem from="1560384269786" duration="11629000" />
+      <workItem from="1568167790308" duration="237000" />
+      <workItem from="1568648538216" duration="57000" />
+      <workItem from="1568811887462" duration="647000" />
+      <workItem from="1569263716640" duration="79000" />
+      <workItem from="1569263798987" duration="1554000" />
+      <workItem from="1569358787098" duration="8097000" />
+      <workItem from="1569384580212" duration="3164000" />
+      <workItem from="1569430090706" duration="8714000" />
+      <workItem from="1569522313201" duration="5196000" />
+      <workItem from="1569861922907" duration="8762000" />
+      <workItem from="1569955750374" duration="2426000" />
+      <workItem from="1569963301497" duration="9970000" />
+      <workItem from="1570033659163" duration="2838000" />
+      <workItem from="1570117654201" duration="8557000" />
+      <workItem from="1570135702003" duration="349000" />
+      <workItem from="1570462460080" duration="6747000" />
+      <workItem from="1570568051230" duration="3868000" />
+      <workItem from="1570636239806" duration="4992000" />
+      <workItem from="1570722563720" duration="2933000" />
+      <workItem from="1571068083302" duration="5664000" />
+      <workItem from="1571172406359" duration="4081000" />
+      <workItem from="1571254173702" duration="2914000" />
+      <workItem from="1571327934279" duration="9689000" />
+      <workItem from="1571673015819" duration="3281000" />
+      <workItem from="1571777625122" duration="6432000" />
+      <workItem from="1571850740194" duration="5524000" />
+      <workItem from="1571869906514" duration="404000" />
+      <workItem from="1571888800747" duration="2100000" />
+      <workItem from="1571936610882" duration="5915000" />
+      <workItem from="1572277975623" duration="10333000" />
+      <workItem from="1572382363316" duration="5849000" />
+      <workItem from="1572451325228" duration="8852000" />
+      <workItem from="1572537458870" duration="2974000" />
+      <workItem from="1572886164841" duration="3888000" />
+      <workItem from="1572990773481" duration="2411000" />
+      <workItem from="1573058731517" duration="3583000" />
+      <workItem from="1573146037904" duration="3047000" />
+      <workItem from="1573492237681" duration="4576000" />
+      <workItem from="1573536941128" duration="1301000" />
+      <workItem from="1573595333708" duration="1340000" />
+      <workItem from="1573678847495" duration="1492000" />
+      <workItem from="1573763751649" duration="1702000" />
+      <workItem from="1574096126095" duration="4580000" />
+      <workItem from="1574204312575" duration="1246000" />
+      <workItem from="1574268848966" duration="4596000" />
+      <workItem from="1574355625878" duration="597000" />
+      <workItem from="1574700930906" duration="595000" />
+      <workItem from="1578590386877" duration="4117000" />
+      <workItem from="1578953089643" duration="3462000" />
+      <workItem from="1579023234371" duration="4017000" />
+      <workItem from="1579107577044" duration="596000" />
+      <workItem from="1579193760376" duration="2577000" />
+      <workItem from="1579625769587" duration="2329000" />
+      <workItem from="1579713007834" duration="1771000" />
+      <workItem from="1579718437265" duration="1990000" />
+      <workItem from="1579798795207" duration="3009000" />
+      <workItem from="1580076459492" duration="1051000" />
+      <workItem from="1580162902814" duration="4893000" />
+      <workItem from="1580230549436" duration="5157000" />
+      <workItem from="1580257619383" duration="1224000" />
+      <workItem from="1580340537546" duration="4829000" />
+      <workItem from="1580360951332" duration="1820000" />
+      <workItem from="1580406051597" duration="1423000" />
+      <workItem from="1580759662987" duration="598000" />
+      <workItem from="1580767483187" duration="8181000" />
+      <workItem from="1580835702469" duration="4718000" />
+      <workItem from="1581007506668" duration="4332000" />
+      <workItem from="1581375894596" duration="1845000" />
+      <workItem from="1581439617398" duration="2360000" />
+      <workItem from="1581526450150" duration="1973000" />
+      <workItem from="1581975442366" duration="5748000" />
+      <workItem from="1582044990497" duration="3498000" />
+      <workItem from="1582131251175" duration="4211000" />
+      <workItem from="1582232495711" duration="1463000" />
+      <workItem from="1582588870880" duration="4300000" />
+      <workItem from="1582653186769" duration="1927000" />
+      <workItem from="1582738505738" duration="4443000" />
+      <workItem from="1582822450185" duration="599000" />
+      <workItem from="1583195442175" duration="2590000" />
+      <workItem from="1583345727277" duration="1090000" />
+      <workItem from="1583427081774" duration="2222000" />
+      <workItem from="1583798896200" duration="2114000" />
+      <workItem from="1583953582262" duration="701000" />
+      <workItem from="1584043370260" duration="1363000" />
+      <workItem from="1584342163280" duration="1071000" />
+      <workItem from="1584400091291" duration="3731000" />
+      <workItem from="1584462363214" duration="4894000" />
+      <workItem from="1584552483906" duration="2987000" />
+      <workItem from="1584573201897" duration="369000" />
+      <workItem from="1585601924333" duration="1217000" />
+      <workItem from="1585686447311" duration="598000" />
+      <workItem from="1586127960393" duration="30000" />
+      <workItem from="1586274857700" duration="3712000" />
+      <workItem from="1586366891198" duration="1258000" />
+      <workItem from="1586460477937" duration="599000" />
+      <workItem from="1586811394387" duration="599000" />
+      <workItem from="1586894391832" duration="1705000" />
+      <workItem from="1586970031435" duration="2867000" />
+      <workItem from="1587067255131" duration="1825000" />
+      <workItem from="1587217721338" duration="1348000" />
+      <workItem from="1587427208609" duration="2042000" />
+      <workItem from="1587497439513" duration="1213000" />
+      <workItem from="1587584190595" duration="1284000" />
+      <workItem from="1588021268873" duration="3243000" />
+      <workItem from="1588104154149" duration="2504000" />
+      <workItem from="1588266654044" duration="1797000" />
+      <workItem from="1588386915454" duration="1155000" />
+      <workItem from="1588453917449" duration="5438000" />
+      <workItem from="1588553256206" duration="6305000" />
+      <workItem from="1588868679373" duration="1078000" />
+      <workItem from="1589033128960" duration="1779000" />
+      <workItem from="1589155850486" duration="2605000" />
+      <workItem from="1589232866401" duration="600000" />
+      <workItem from="1589305401398" duration="599000" />
+      <workItem from="1589386216649" duration="618000" />
+      <workItem from="1589734016349" duration="739000" />
+      <workItem from="1589836148464" duration="1715000" />
+      <workItem from="1589902199233" duration="3286000" />
+      <workItem from="1589917202004" duration="2303000" />
+      <workItem from="1590005892379" duration="599000" />
+      <workItem from="1590079000081" duration="598000" />
+      <workItem from="1590422726082" duration="5375000" />
+      <workItem from="1590525650975" duration="1347000" />
+      <workItem from="1591075483485" duration="4104000" />
+      <workItem from="1591117469182" duration="20269000" />
+      <workItem from="1591228558761" duration="9576000" />
+      <workItem from="1591333589202" duration="795000" />
+      <workItem from="1591382502507" duration="13093000" />
+      <workItem from="1592174922968" duration="25000" />
+      <workItem from="1592174963292" duration="219000" />
+      <workItem from="1592269716107" duration="55000" />
+      <workItem from="1601601876266" duration="768000" />
+    </task>
+    <task id="LOCAL-00001" summary="Sadaf - First Commit">
+      <created>1554152017421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554152017421</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Sadaf - Second Commit">
+      <created>1557255947504</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557255947504</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Doctest_print_results - 2020.03.09 at 19h 30m 32s.xml">
+      <configuration name="Doctest print_results" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_print_results - 2020.03.09 at 19h 30m 52s.xml">
+      <configuration name="Doctest print_results" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_dice_probability - 2020.03.09 at 19h 31m 01s.xml">
+      <configuration name="Doctest dice_probability" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_print_results - 2020.03.09 at 19h 31m 05s.xml">
+      <configuration name="Doctest print_results" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_dice_probability - 2020.03.09 at 19h 31m 17s.xml">
+      <configuration name="Doctest dice_probability" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_print_results - 2020.03.09 at 19h 31m 27s.xml">
+      <configuration name="Doctest print_results" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_print_results - 2020.03.09 at 19h 31m 33s.xml">
+      <configuration name="Doctest print_results" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_print_results - 2020.03.09 at 19h 31m 38s.xml">
+      <configuration name="Doctest print_results" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_print_results - 2020.03.09 at 19h 31m 45s.xml">
+      <configuration name="Doctest print_results" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_print_results - 2020.03.09 at 19h 32m 40s.xml">
+      <configuration name="Doctest print_results" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sadaf - First Commit" />
+    <MESSAGE value="Sadaf - Second Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sadaf - Second Commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601601946160">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601601946160" />
+  </component>
+</project>
