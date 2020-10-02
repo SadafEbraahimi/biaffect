@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8d2a9f5-968c-4977-aa5b-cdc19f39d0a5" name="Default Changelist" comment="Sadaf - First Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/biaffect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/biaffect.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/calc_modalities.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/mdq.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/merge.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/phq9.py" beforeDir="false" />
-    </list>
+    <list default="true" id="d8d2a9f5-968c-4977-aa5b-cdc19f39d0a5" name="Default Changelist" comment="Sadaf - First Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -533,7 +524,7 @@
       <workItem from="1592174922968" duration="25000" />
       <workItem from="1592174963292" duration="219000" />
       <workItem from="1592269716107" duration="55000" />
-      <workItem from="1601601876266" duration="768000" />
+      <workItem from="1601601876266" duration="1374000" />
     </task>
     <task id="LOCAL-00001" summary="Sadaf - First Commit">
       <created>1554152017421</created>
